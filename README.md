@@ -36,4 +36,7 @@ Access from the command line on the same or different device
 curl http://<raspberry_pi_ip>:5000/capture -o image.svg
 ```
 
+# System
+Tested on Debian 11 Bullseye with a UC-346 (Arducam OV5647) camera module connected via CSI. I couldn't get this to work with Debian 12.
 
+``sudo raspi-config`` Enable legacy Camera support
