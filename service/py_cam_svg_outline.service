@@ -1,0 +1,13 @@
+[Unit]
+Description=py_cam_svg_outline Flask service
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=WORKINGDIR
+ExecStart=PYTHON APP
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
